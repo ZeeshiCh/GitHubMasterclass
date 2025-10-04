@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    printf("Hello, World!\n");
+    printf("Hello, ACM!\n");
     scanf("%d", &a);
     return 0;
 }
