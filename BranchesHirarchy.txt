@@ -1,0 +1,11 @@
+Main/Master
+    |
+    |---> Staging ( Parent branch should be main/master if we dont have any staging env then dont create this branch)
+             |
+             |---> Dev ( Parent branch should be staging if we dont have any staging env then main/master )
+                      |
+                      |---> Feature Branches ( Parent branch should be main )
+
+  Feature Braches <----> Dev
+  Stagging <----> Dev
+  Main/Master <----> Stagging 
